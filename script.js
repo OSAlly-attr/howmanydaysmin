@@ -185,7 +185,7 @@ const start = () => {
 const daysm = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 var dt = new Date();
 // var dt = new Date("2023/03/23");
-var start1 = new Date("2021/09/29");
+var start1 = new Date("2021/10/31");
 var y = dt.getFullYear();
 var m = ("00" + (dt.getMonth() + 1)).slice(-2);
 var d = ("00" + dt.getDate()).slice(-2);
@@ -193,8 +193,8 @@ var h = ("00" + dt.getHours()).slice(-2);
 var mi = ("00" + dt.getMinutes()).slice(-2);
 
 const y1 = 2021;
-const m1 = 9;
-const d1 = 29;
+const m1 = 10;
+const d1 = 31;
 
 var dy = Number(y) - y1;
 var dm = Number(m) - m1;
